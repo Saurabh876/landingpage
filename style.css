@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+}
+
+#hero {
+    background-color: #404647;
+    color: #fff;
+    text-align: center;
+    
+}
+
+#hero a.btn1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#about, #services, #contact {
+    background-color: #ecf0f1;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+/* about, info */
+.info a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: gray;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 6px;
+    display: inline-block;
+    
+}
+
+.info a:hover{
+    color: rgb(0, 0, 0);
+    
+    background: rgb(216, 176, 13);
+    transition: .4s ease;
+
+}
+
+#hero img,
+.service img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input{
+    height: 30px;
+}
+label, input, textarea, .btn {
+    display: block;
+    width: 100%;
+    border-width: 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: gray;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    font-weight: bold;
+    
+}
+
+.btn:hover {
+    background: rgb(216, 176, 13);
+    color: black;
+    border-color: lightgoldenrodyellow;    
+}
+
+
+.link{
+    color: orangered;
+    
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
